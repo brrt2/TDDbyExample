@@ -1,3 +1,7 @@
+import Chapter1_Java.Bank;
+import Chapter1_Java.Expression;
+import Chapter1_Java.Money;
+import Chapter1_Java.Sum;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -106,9 +110,5 @@ public class DollarTest {
         Money result = bank.reduce(sum,"USD");
         assertEquals(Money.dollar(20),result);
     }
-
-    
-
-
 
 }
